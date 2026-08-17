@@ -7,7 +7,7 @@ import (
 )
 
 /*
-Apply ROT128 on one byte: rotating one byte by 128, equal to adding 128
+ROT128: rotating one byte by 128, equal to flipping the 8th bit of a byte
 */
 func RotateByte(inputByte byte) byte {
 	var rotateBy byte = 128
